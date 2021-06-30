@@ -7,39 +7,36 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/editNama"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="92dp"
-        android:ems="10"
-        android:hint="Nama Teman"
-        android:inputType="textPersonName"
+        android:layout_marginTop="100dp"
+        android:text="MENU UTAMA"
+        android:textSize="14pt"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/editTelpon"
+    <Button
+        android:id="@+id/btnInsert"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
-        android:ems="10"
-        android:hint="Nomor Telpon"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/editNama"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editNama"
-        app:layout_constraintTop_toBottomOf="@+id/editNama" />
+        android:layout_marginTop="88dp"
+        android:text="Tambah Data Teman"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:id="@+id/btnOk"
+        android:id="@+id/btnSelect"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
-        android:text="Submit"
-        app:layout_constraintEnd_toEndOf="@+id/editTelpon"
-        app:layout_constraintStart_toStartOf="@+id/editTelpon"
-        app:layout_constraintTop_toBottomOf="@+id/editTelpon" />
+        android:layout_marginTop="60dp"
+        android:text="Lihat Daftar Teman"
+        app:layout_constraintEnd_toEndOf="@+id/btnInsert"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btnInsert"
+        app:layout_constraintTop_toBottomOf="@+id/btnInsert" />
 </androidx.constraintlayout.widget.ConstraintLayout>

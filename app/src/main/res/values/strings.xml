@@ -9,4 +9,5 @@
     <string name="txtJudul2">Penambahan Data</string>
     <string name="txtJudul3">Data Barang</string>
     <string name="txtKosong"></string>
+    <item name="tv_key" type="id">tv_key</item>
 </resources>
